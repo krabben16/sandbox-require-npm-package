@@ -1,0 +1,16 @@
+{
+  "name": "test-require-npm-package",
+  "dependencies": {
+    "@krabben16/test-create-npm-package": "0.0.2"
+  },
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "scripts": {
+    "build": "webpack",
+    "cjs": "node ./index-cjs.js",
+    "esm": "node ./index-esm.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
