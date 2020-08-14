@@ -1,3 +1,7 @@
 # test-require-npm-package
 
-作成したnpmパッケージの動作を確認するためのリポジトリ
+```shell
+npm i
+npm run cjs
+npm run build && npm run esm
+```
