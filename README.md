@@ -1,5 +1,3 @@
-# test-require-npm-package
-
 ```shell
 npm i
 npm run cjs
