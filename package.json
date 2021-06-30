@@ -1,5 +1,5 @@
 {
-  "name": "test-require-npm-package",
+  "name": "sandbox-require-npm-package",
   "dependencies": {
     "@krabben16/test-create-npm-package": "0.0.2"
   },
